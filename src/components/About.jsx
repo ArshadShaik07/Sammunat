@@ -1,12 +1,12 @@
 function About() {
 	return (
-		<section className="w-full bg-slate-300 py-5" id="about">
-			<div className="max-w-7xl mx-auto px-6 py-20">
-				<h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+		<section className="w-full bg-slate-300 py-6 sm:py-8" id="about">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-20">
+				<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
 					About Samm<span className="text-amber-600">unat</span>
 				</h2>
 
-				<div className="mt-8 max-w-2xl space-y-6 text-gray-800 font-semibold text-lg leading-relaxed">
+				<div className="mt-6 sm:mt-8 max-w-full sm:max-w-2xl space-y-5 sm:space-y-6 text-gray-800 font-semibold text-base sm:text-lg leading-relaxed">
 					<p>
 						Sammunat is a technology-focused company dedicated to
 						building customized digital solutions that help
