@@ -1,6 +1,6 @@
 function Services() {
 	return (
-		<section className="w-full bg-white">
+		<section className="w-full bg-white" id="services">
 			<div className="max-w-7xl mx-auto px-6 py-20">
 				<h2 className="text-3xl md:text-4xl font-bold text-gray-900">
 					Our Services
@@ -13,7 +13,7 @@ function Services() {
 				</p>
 
 				<div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110">
+					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110 duration-300">
 						<h3 className="text-xl font-semibold text-gray-900">
 							Custom CRM Solutions
 						</h3>
@@ -23,7 +23,7 @@ function Services() {
 						</p>
 					</div>
 
-					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110">
+					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110 duration-300">
 						<h3 className="text-xl font-semibold text-gray-900">
 							ERP Systems
 						</h3>
@@ -34,7 +34,7 @@ function Services() {
 						</p>
 					</div>
 
-					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110">
+					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110 duration-300">
 						<h3 className="text-xl font-semibold text-gray-900">
 							Web Application Development
 						</h3>
@@ -44,7 +44,7 @@ function Services() {
 						</p>
 					</div>
 
-					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110">
+					<div className="rounded-xl border border-gray-200 p-6 hover:shadow-lg transition hover:scale-110 duration-300">
 						<h3 className="text-xl font-semibold text-gray-900">
 							Business Automation
 						</h3>

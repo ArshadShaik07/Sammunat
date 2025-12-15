@@ -1,6 +1,9 @@
 function Hero() {
 	return (
-		<div className="w-full flex items-center justify-center bg-[hsl(253,92%,66%)] py-4">
+		<section
+			className="w-full flex items-center justify-center bg-[hsl(253,64%,59%)] py-4"
+			id="home"
+		>
 			<div className="max-w-7xl px-6 py-24 flex flex-col items-start transition duration-300">
 				<h1 className="text-4xl md:text-5xl font-bold text-gray-900">
 					Crafting Smart & Scalable <br /> Digital Solutions
@@ -23,13 +26,13 @@ function Hero() {
 				</div>
 			</div>
 
-			<div className="rounded-2xl w-4/12 overflow-hidden hover:-rotate-2 transition duration-300">
+			<div className="rounded-2xl w-4/12 overflow-hidden hover:-rotate-2 hover:scale-96 duration-200 relative transition">
 				<img
 					src="https://images.unsplash.com/photo-1737365508417-abaf499514c8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 					className="w-full object-cover"
 				/>
 			</div>
-		</div>
+		</section>
 	);
 }
 

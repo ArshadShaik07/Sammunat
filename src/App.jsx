@@ -5,16 +5,14 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Connect from "./components/Connect";
 
 function App() {
 	return (
-		<div className="min-w-screen min-h-screen flex flex-col items-center">
+		<div className="min-w-screen min-h-screen flex flex-col items-center relative">
 			<Navbar />
 			<Hero />
 			<About />
 			<Services />
-			<Connect />
 			<Contact />
 			<Footer />
 		</div>
